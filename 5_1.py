@@ -1,0 +1,8 @@
+T = list(map(int,input().split()))
+print("最高点は",max(T),"です")
+print("最低点は",min(T),"です")
+print("平均点は",sum(T)/len(T),"です")
+print("昇順は",sorted(T),"です")
+print("降順は",sorted(T,reverse=True),"です")
+print("80点以上は",[i for i in T if 80<=i],"です")
+print("80点以上の人数は",len([i for i in T if 80<=i]),"です")
